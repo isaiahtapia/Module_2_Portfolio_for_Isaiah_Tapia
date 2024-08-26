@@ -11,8 +11,7 @@ html, body {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     background-image: url('../images/mountain.bg.jpg');
     background-size: cover;
     background-position: center;
@@ -45,12 +44,18 @@ img {
 .align-center {
     align-items: center;
 }
+
 .bg-content {
     padding: 10px;
     background-color: rgba(250, 250, 250, .3);
     border-radius: 5px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
 
 /* CUSTOM STYLES */
 
@@ -65,18 +70,8 @@ header nav a:hover {
 }
 
 main {
-    display: grid;
     flex: 1;
-    align-items: center;
 }
-
-/* head{ 
-    grid-column: right;
-}
-
-section {
-    grid-column: left ;
-} */
 
 footer {
     padding: 30px 5%;
