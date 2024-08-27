@@ -27,7 +27,7 @@ The following animation shows the web application's appearance and functionality
 
 ![portfolio](./images/app-ss.jpg)
 
-link: 
+link: https://isaiahtapia.github.io/Module_2_Portfolio_for_Isaiah_Tapia/
 
 ## License
 
